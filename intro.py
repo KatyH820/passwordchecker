@@ -33,6 +33,6 @@ import requests
 # ---so that on our end, when we receive that response, we can check the rest of the hash function
 # ---this way the api will never going to know our full hash and therefore never be able to guess our password
 url = 'https://api.pwnedpasswords.com/range/' + \
-    'CBFDA'  # that is why we only give first five here
+    'CBFDA'  # that is why we only give first five here.
 res = requests.get(url)
 print(res)
