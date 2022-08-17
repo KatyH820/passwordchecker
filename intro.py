@@ -1,4 +1,4 @@
-# Check if your password has ever been hack
+# Check if your password has ever been hack.
 # terminal: python3 checkmypass.py password1 password2 ...
 import requests
 
